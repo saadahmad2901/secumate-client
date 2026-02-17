@@ -28,7 +28,7 @@ export default function RootLayoutClient({ children }: { children: React.ReactNo
     <div className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
       {children}
       <Toaster
-        position="top-center"
+        position="bottom-center"
         toastOptions={{
           duration: 4000,
           style: {
